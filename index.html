@@ -67,33 +67,60 @@
 
   <main role="main">
 
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Hello! I’m a student at Carnegie Mellon with substantial real-life experience shaped through personal projects, internships, and research endeavors. My passion lies in harnessing the power of data to address unique and novel challenges. I have successfully applied my skills in diverse contexts—from enhancing drill manufacturing processes to visualizing economic datasets and tackling air pollution issues. 
+
+              I am Colombian-American, and grew up in South America. In my free time, I like learning about new cultures and volunteering.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/jose.png" alt="" height="300"/>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+    
+
     <!-- ***** Work ***** -->
 
     <section class="work" id="work">
       <div class="row">
-        <h2>My Work</h2>
+        <h2>Projects</h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Portfolio Template</h3>
+              <h3>Air Quality Forecaster</h3>
               <p>
-                A free Open Source Portfolio for anyone to use for free.
+                A website that forecasts AQI in the city of Houston using Recurrent Neural Networks. Up to a thousand users daily peak.
               </p>
               <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
+                <li>Python 3</li>
+                <li>Tensorflow/Keras</li>
+                <li>Streamlit</li>
+                <li>Pandas</li>
               </ul>
 
               <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="misc/air_pollution.pdf" target="_blank" class="link__text">
+                  Overview <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                <a href="https://github.com/gallo-json/air-pollution-forecast" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
@@ -105,23 +132,20 @@
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Calculator</h3>
+              <h3>Google's PageRank Algorithm</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                Final project for 21-241 Matrices and Linear Transformations. Created search result ranking algorithm on a miniature internet database.
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>Julia</li>
+                <li>Gumbo.jl (webscraping)</li>
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="misc/241_Final_Project.pdf" class="link__text">
+                  Overview <span>&rarr;</span>
                 </a>
-                <a href="#">
+                <a href="https://github.com/gallo-json/241-final-project">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
@@ -133,23 +157,22 @@
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Notificator</h3>
+              <h3>Self-Driving Robot</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                Miniature self-driving car for a miniature city, using NVIDIA's Jetson Nano. Navigates stops signs, traffic lights, and stays on the road autonomously.
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>Python 3</li>
+                <li>OpenCV</li>
+                <li>PyTorch & TensorRT</li>
+                <li>YOLOv4</li>
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="https://github.com/gallo-json/self-driving-robot" class="link__text">
+                  Overview <span>&rarr;</span>
                 </a>
-                <a href="#">
+                <a href="https://github.com/gallo-json/self-driving-robot">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
@@ -169,42 +192,15 @@
         <h2>Clients</h2>
         <div class="client__logos">
           <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+          <img src="./images/countrywatch.png" class="client__logo" alt="Company 2" />
+          <img src="./images/pd.png" class="client__logo" alt="Company 3" />
+          <img src="./images/placeholder.png" class="client__logo" alt="Company 1" />
+          <img src="./images/placeholder.png" class="client__logo" alt="Company 1" />
+          <img src="./images/placeholder.png" class="client__logo" alt="Company 3" />
+          <img src="./images/placeholder.png" class="client__logo" alt="Company 1" />
         </div>
       </div>
     </section>
-
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
 
   <!-- ***** Contact ***** -->
 
@@ -213,15 +209,10 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
+          I am available during the summer for any potential opportunities.
         </p>
         <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        <a href="mailto:josegall@andrew.cmu.edu" class="btn">josegall@andrew.cmu.edu</a>
       </div>
     </div>
   </section>
@@ -233,22 +224,12 @@
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+          <a href="https://github.com/gallo-json/" title="Link to Github Profile">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
+          <a href=https://www.linkedin.com/in/jose-santiago-gallo-04a10b208/">
             <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
           </a>
         </li>
